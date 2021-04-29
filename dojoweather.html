@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+        <div class="navbar">
+            <h1>DojoWeather</h1>
+            <div class="navleft">
+            <h3 onclick="alert('Loading weather report...')">Burbank</h3>
+            <h3 onclick="alert('Loading weather report...')">Chicago</h3>
+            <h3 onclick="alert('Loading weather report...')">Dallas</h3>
+            </div>
+        </div>
+        <div class="plants">
+            <h2>San Jose</h2>
+            <h3>show temperature in <select name="degree" id="degree" onchange="myFunction()">
+                <option id="cel" value="cel">°C</option>
+                <option id="fer" value="fer">°F</option>
+            </select></h3>
+        </div>
+        </div>
+        <div class="main2">
+            <div class="plants2">
+                <h3>Today</h3>
+                <img src="some_rain.png" alt="rain">
+                <p>some rain</p>
+                <div class="degrees"><h3 class="red" id="1">23.9°</h3><h3 class="blue" id="2">18.3°</h3></div>
+            </div>
+            <div class="plants2">
+                <h3>Tomorrow</h3>
+                <img src="some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="degrees"><h3 class="red" id="3">26.7°</h3><h3 class="blue" id="4">18.9°</h3></div>
+            </div>
+            <div class="plants2">
+                <h3>Friday</h3>
+                <img src="some_clouds.png" alt="cloud">
+                <p>some clouds</p>
+                <div class="degrees"><h3 class="red" id="5">20.6°</h3><h3 class="blue" id="6">16.1°</h3></div>
+            </div>
+            <div class="plants2">
+                <h3>Saturday</h3>
+                <img src="some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="degrees"><h3 class="red" id="7">25.6°</h3><h3 class="blue" id="8">21.1°</h3></div>
+            </div>
+        </div>
+        <div class="cookies" id="cookies">
+            <img src="cookie.png" alt="cookie">
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.<a href="cookie">Read more...</a></p>
+            <button onclick="disappear()" class="accept">I Accept</button>
+        </div>
+</body>
+</html>
